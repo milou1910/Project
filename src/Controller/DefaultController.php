@@ -19,4 +19,12 @@ class DefaultController extends AbstractController
         $response = new Response ("hello helloooo");
         return $response;
     }
+
+    #[
+        Route('/blog')
+    ]
+    public function blog() {
+
+        return new Response('Blog');
+    }
 }
