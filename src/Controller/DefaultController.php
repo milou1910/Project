@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\Response;
 class DefaultController extends AbstractController
 {
     
-    #[Route(path:'/hello', name: 'blog')]
+    #[Route(path:'/hello', name: 'hello')]
 
     public function hello()
     {
